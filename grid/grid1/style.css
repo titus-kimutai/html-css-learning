@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(165, 122, 42);
+    width: 50vw;
+    height: 50vh;
+}
+.container{
+   display: grid;
+   grid-template-rows: 1fr;
+   row-gap: 5px;
+}
+.wrapper{
+    width: 30%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 10px;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.angular{
+    background-color: #f9f9fd;
+    border-radius: 15px;
+}
+.react{
+    background-color: #f9f9fd;
+    border-radius: 15px;
+}
+.vue{
+    background-color: #f9f9fd;
+    border-radius: 15
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+h1{
+    margin-left: 40px;
+    text-align: start;
+    font-size: 5rem;
+}
+pre{
+    text-align: center;
+}
+.image-1, .image-2, .image-3{
+    text-align: center;
+    padding-top: 20px;
+}
